@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>6bb3201a-0c32-46ab-8429-6c0bb8ba91e2</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MongoRedisPlayground.Application\MongoRedisPlayground.Application.csproj" />
+    <ProjectReference Include="..\MongoRedisPlayground.Domain\MongoRedisPlayground.Domain.csproj" />
+    <ProjectReference Include="..\MongoRedisPlayground.Infrastructure\MongoRedisPlayground.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

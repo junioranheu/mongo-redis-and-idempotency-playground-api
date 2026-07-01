@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MongoRedisPlayground.API/MongoRedisPlayground.API.csproj" />
+  <Project Path="MongoRedisPlayground.Application/MongoRedisPlayground.Application.csproj" Id="7f777e03-e53c-4ac9-8fc4-2f0002e7463d" />
+  <Project Path="MongoRedisPlayground.Domain/MongoRedisPlayground.Domain.csproj" Id="88e6536b-62b1-42ad-8460-6fa260b49fbf" />
+  <Project Path="MongoRedisPlayground.Infrastructure/MongoRedisPlayground.Infrastructure.csproj" Id="b62abd6d-2d64-4ccc-b429-b216bb5a74b0" />
+</Solution>
