@@ -43,4 +43,4 @@ Praticar:
 * Cache distribuído
 * Idempotência em APIs REST
 * Repository Pattern
-* Conceitos de Clean Architecture"# mongo-redis-and-idempotency-playground-api" 
+* Conceitos de Clean Architecture
